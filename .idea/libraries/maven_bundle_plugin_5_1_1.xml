@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="maven-bundle-plugin-5.1.1">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/dices_anonym/src/main/resources/maven-bundle-plugin-5.1.1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

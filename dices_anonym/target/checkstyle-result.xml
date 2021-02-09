@@ -1,0 +1,297 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="8.10">
+<file name="D:\share\DICES\dices_anonym\src\main\java\abc\def\dices\Config.java">
+<error line="3" column="1" severity="error" message="工具类应隐藏 public 构造器。" source="com.puppycrawl.tools.checkstyle.checks.design.HideUtilityClassConstructorCheck"/>
+</file>
+<file name="D:\share\DICES\dices_anonym\src\main\java\abc\def\dices\CongestionProblem.java">
+<error line="4" severity="error" message="不应使用 &apos;.*&apos; 形式的导入 - org.onosproject.net.* 。" source="com.puppycrawl.tools.checkstyle.checks.imports.AvoidStarImportCheck"/>
+<error line="12" severity="error" message="不应使用 &apos;.*&apos; 形式的导入 - java.util.* 。" source="com.puppycrawl.tools.checkstyle.checks.imports.AvoidStarImportCheck"/>
+<error line="31" severity="error" message="本行字符数 138个，最多：120个。" source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="162" column="42" severity="error" message="&apos;=&apos; 前应有空格。" source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="162" column="43" severity="error" message="&apos;=&apos; 后应有空格。" source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="182" column="26" severity="error" message="&apos;,&apos; 后应有空格。" source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAfterCheck"/>
+<error line="182" column="37" severity="error" message="&apos;,&apos; 后应有空格。" source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAfterCheck"/>
+<error line="186" severity="error" message="本行字符数 124个，最多：120个。" source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="199" column="63" severity="error" message="类型转换后应有空格。" source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAfterCheck"/>
+<error line="203" column="38" severity="error" message="&apos;=&apos; 前应有空格。" source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="203" column="39" severity="error" message="&apos;=&apos; 后应有空格。" source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="204" column="35" severity="error" message="&apos;=&apos; 前应有空格。" source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="204" column="36" severity="error" message="&apos;=&apos; 后应有空格。" source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="205" column="37" severity="error" message="&apos;=&apos; 前应有空格。" source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="205" column="38" severity="error" message="&apos;=&apos; 后应有空格。" source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="205" column="56" severity="error" message="类型转换后应有空格。" source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAfterCheck"/>
+<error line="205" column="70" severity="error" message="&apos;,&apos; 后应有空格。" source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAfterCheck"/>
+<error line="205" column="85" severity="error" message="&apos;,&apos; 后应有空格。" source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAfterCheck"/>
+<error line="205" column="93" severity="error" message="类型转换后应有空格。" source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAfterCheck"/>
+<error line="206" column="50" severity="error" message="类型转换后应有空格。" source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAfterCheck"/>
+<error line="207" severity="error" message="本行字符数 125个，最多：120个。" source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="208" severity="error" message="本行字符数 122个，最多：120个。" source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="218" column="44" severity="error" message="类型转换后应有空格。" source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAfterCheck"/>
+<error line="253" severity="error" message="名称 &apos;editLCSDistance&apos; 中不能出现超过 &apos;3&apos; 个连续大写字母。" source="com.puppycrawl.tools.checkstyle.checks.naming.AbbreviationAsWordInNameCheck"/>
+<error line="255" column="16" severity="error" message="数组大括号位置错误。" source="com.puppycrawl.tools.checkstyle.checks.ArrayTypeStyleCheck"/>
+<error line="255" column="30" severity="error" message="&apos;+&apos; 前应有空格。" source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="255" column="31" severity="error" message="&apos;+&apos; 后应有空格。" source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="255" column="35" severity="error" message="&apos;+&apos; 前应有空格。" source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="255" column="36" severity="error" message="&apos;+&apos; 后应有空格。" source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="260" column="35" severity="error" message="&apos;-&apos; 前应有空格。" source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="260" column="36" severity="error" message="&apos;-&apos; 后应有空格。" source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="260" column="53" severity="error" message="&apos;-&apos; 前应有空格。" source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="260" column="54" severity="error" message="&apos;-&apos; 后应有空格。" source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="261" column="34" severity="error" message="&apos;-&apos; 前应有空格。" source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="261" column="35" severity="error" message="&apos;-&apos; 后应有空格。" source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="261" column="39" severity="error" message="&apos;-&apos; 前应有空格。" source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="261" column="40" severity="error" message="&apos;-&apos; 后应有空格。" source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="263" column="43" severity="error" message="&apos;-&apos; 前应有空格。" source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="263" column="44" severity="error" message="&apos;-&apos; 后应有空格。" source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="263" column="57" severity="error" message="&apos;-&apos; 前应有空格。" source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="263" column="58" severity="error" message="&apos;-&apos; 后应有空格。" source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="271" severity="error" message="名称 &apos;findLCS&apos; 中不能出现超过 &apos;3&apos; 个连续大写字母。" source="com.puppycrawl.tools.checkstyle.checks.naming.AbbreviationAsWordInNameCheck"/>
+<error line="273" column="16" severity="error" message="数组大括号位置错误。" source="com.puppycrawl.tools.checkstyle.checks.ArrayTypeStyleCheck"/>
+<error line="273" column="30" severity="error" message="&apos;+&apos; 前应有空格。" source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="273" column="31" severity="error" message="&apos;+&apos; 后应有空格。" source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="273" column="35" severity="error" message="&apos;+&apos; 前应有空格。" source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="273" column="36" severity="error" message="&apos;+&apos; 后应有空格。" source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="278" column="35" severity="error" message="&apos;-&apos; 前应有空格。" source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="278" column="36" severity="error" message="&apos;-&apos; 后应有空格。" source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="278" column="53" severity="error" message="&apos;-&apos; 前应有空格。" source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="278" column="54" severity="error" message="&apos;-&apos; 后应有空格。" source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="279" column="34" severity="error" message="&apos;-&apos; 前应有空格。" source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="279" column="35" severity="error" message="&apos;-&apos; 后应有空格。" source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="279" column="39" severity="error" message="&apos;-&apos; 前应有空格。" source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="279" column="40" severity="error" message="&apos;-&apos; 后应有空格。" source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="281" column="43" severity="error" message="&apos;-&apos; 前应有空格。" source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="281" column="44" severity="error" message="&apos;-&apos; 后应有空格。" source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="281" column="57" severity="error" message="&apos;-&apos; 前应有空格。" source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="281" column="58" severity="error" message="&apos;-&apos; 后应有空格。" source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="289" column="24" severity="error" message="&apos;-&apos; 前应有空格。" source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="289" column="25" severity="error" message="&apos;-&apos; 后应有空格。" source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="289" column="42" severity="error" message="&apos;-&apos; 前应有空格。" source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="289" column="43" severity="error" message="&apos;-&apos; 后应有空格。" source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="290" column="32" severity="error" message="&apos;-&apos; 前应有空格。" source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="290" column="33" severity="error" message="&apos;-&apos; 后应有空格。" source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="292" column="27" severity="error" message="&apos;-&apos; 前应有空格。" source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="292" column="28" severity="error" message="&apos;-&apos; 后应有空格。" source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="292" column="42" severity="error" message="&apos;-&apos; 前应有空格。" source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="292" column="43" severity="error" message="&apos;-&apos; 后应有空格。" source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="334" column="28" severity="error" message="&apos;=&apos; 后应有空格。" source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="359" column="55" severity="error" message="&apos;+&apos; 前应有空格。" source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="359" column="56" severity="error" message="&apos;+&apos; 后应有空格。" source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="364" column="24" severity="error" message="&apos;,&apos; 后应有空格。" source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAfterCheck"/>
+<error line="364" column="44" severity="error" message="&apos;=&apos; 前应有空格。" source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="364" column="45" severity="error" message="&apos;=&apos; 后应有空格。" source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="365" column="28" severity="error" message="&apos;&lt;&apos; 后应有空格。" source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="365" column="45" severity="error" message="&apos;;&apos; 后应有空格。" source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAfterCheck"/>
+<error line="371" column="37" severity="error" message="&apos;,&apos; 后应有空格。" source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAfterCheck"/>
+<error line="380" column="28" severity="error" message="&apos;=&apos; 前应有空格。" source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="380" column="29" severity="error" message="&apos;=&apos; 后应有空格。" source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="380" column="37" severity="error" message="&apos;(&apos; 后不应有空格。" source="com.puppycrawl.tools.checkstyle.checks.whitespace.ParenPadCheck"/>
+<error line="381" column="36" severity="error" message="&apos;(&apos; 后不应有空格。" source="com.puppycrawl.tools.checkstyle.checks.whitespace.ParenPadCheck"/>
+</file>
+<file name="D:\share\DICES\dices_anonym\src\main\java\abc\def\dices\DynamicAdaptiveControlTask.java">
+<error line="4" severity="error" message="不应使用 &apos;.*&apos; 形式的导入 - org.onosproject.net.* 。" source="com.puppycrawl.tools.checkstyle.checks.imports.AvoidStarImportCheck"/>
+<error line="6" severity="error" message="不应使用 &apos;.*&apos; 形式的导入 - org.onosproject.net.flow.* 。" source="com.puppycrawl.tools.checkstyle.checks.imports.AvoidStarImportCheck"/>
+<error line="50" column="12" severity="error" message="&apos;try&apos; 后应有空格。" source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="50" column="12" severity="error" message="&apos;{&apos; 前应有空格。" source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="108" column="33" severity="error" message="表达式可被简化。" source="com.puppycrawl.tools.checkstyle.checks.coding.SimplifyBooleanExpressionCheck"/>
+<error line="113" column="59" severity="error" message="类型转换后应有空格。" source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAfterCheck"/>
+<error line="118" column="35" severity="error" message="&apos;*&apos; 前应有空格。" source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="118" column="36" severity="error" message="&apos;*&apos; 后应有空格。" source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="122" column="46" severity="error" message="类型转换后应有空格。" source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAfterCheck"/>
+<error line="123" severity="error" message="本行字符数 121个，最多：120个。" source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="160" column="21" severity="error" message="&apos;-&apos; 前应有空格。" source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="160" column="22" severity="error" message="&apos;-&apos; 后应有空格。" source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="166" column="33" severity="error" message="表达式可被简化。" source="com.puppycrawl.tools.checkstyle.checks.coding.SimplifyBooleanExpressionCheck"/>
+<error line="212" column="40" severity="error" message="&apos;-&apos; 前应有空格。" source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="212" column="41" severity="error" message="&apos;-&apos; 后应有空格。" source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="232" severity="error" message="本行字符数 153个，最多：120个。" source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="251" column="39" severity="error" message="&apos;-&apos; 前应有空格。" source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="251" column="40" severity="error" message="&apos;-&apos; 后应有空格。" source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="288" severity="error" message="本行字符数 153个，最多：120个。" source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+</file>
+<file name="D:\share\DICES\dices_anonym\src\main\java\abc\def\dices\DynamicLinkWeight.java">
+<error line="60" column="21" severity="error" message="类型转换后应有空格。" source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAfterCheck"/>
+</file>
+<file name="D:\share\DICES\dices_anonym\src\main\java\abc\def\dices\MacAddressCompleter.java">
+</file>
+<file name="D:\share\DICES\dices_anonym\src\main\java\abc\def\dices\MonitorUtil.java">
+<error line="6" severity="error" message="不应使用 &apos;.*&apos; 形式的导入 - org.onosproject.net.* 。" source="com.puppycrawl.tools.checkstyle.checks.imports.AvoidStarImportCheck"/>
+<error line="52" column="42" severity="error" message="类型转换后应有空格。" source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAfterCheck"/>
+<error line="52" column="63" severity="error" message="类型转换后应有空格。" source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAfterCheck"/>
+<error line="86" column="17" severity="error" message="第 17 个字符 &apos;}&apos; 应独占一行。" source="com.puppycrawl.tools.checkstyle.checks.blocks.RightCurlyCheck"/>
+<error line="131" column="33" severity="error" message="表达式可被简化。" source="com.puppycrawl.tools.checkstyle.checks.coding.SimplifyBooleanExpressionCheck"/>
+<error line="138" column="55" severity="error" message="&apos;*&apos; 前应有空格。" source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="138" column="56" severity="error" message="&apos;*&apos; 后应有空格。" source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="171" severity="error" message="本行字符数 123个，最多：120个。" source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="222" column="34" severity="error" message="表达式可被简化。" source="com.puppycrawl.tools.checkstyle.checks.coding.SimplifyBooleanExpressionCheck"/>
+<error line="287" column="24" severity="error" message="类型转换后应有空格。" source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAfterCheck"/>
+<error line="287" column="51" severity="error" message="类型转换后应有空格。" source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAfterCheck"/>
+<error line="298" column="39" severity="error" message="名称 &apos;Mbps&apos; 必须匹配表达式： &apos;^[a-z][a-zA-Z0-9]*$&apos; 。" source="com.puppycrawl.tools.checkstyle.checks.naming.ParameterNameCheck"/>
+</file>
+<file name="D:\share\DICES\dices_anonym\src\main\java\abc\def\dices\OsgiPropertyConstants.java">
+<error line="1" severity="error" message="Line has windows line endings." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpMultilineCheck"/>
+<error line="2" severity="error" message="Line has windows line endings." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpMultilineCheck"/>
+<error line="3" severity="error" message="Line has windows line endings." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpMultilineCheck"/>
+<error line="4" severity="error" message="Line has windows line endings." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpMultilineCheck"/>
+<error line="5" severity="error" message="Line has windows line endings." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpMultilineCheck"/>
+<error line="6" severity="error" message="Line has windows line endings." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpMultilineCheck"/>
+<error line="7" severity="error" message="Line has windows line endings." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpMultilineCheck"/>
+<error line="8" severity="error" message="Line has windows line endings." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpMultilineCheck"/>
+<error line="9" severity="error" message="Line has windows line endings." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpMultilineCheck"/>
+<error line="10" severity="error" message="Line has windows line endings." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpMultilineCheck"/>
+<error line="11" severity="error" message="Line has windows line endings." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpMultilineCheck"/>
+<error line="12" severity="error" message="Line has windows line endings." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpMultilineCheck"/>
+<error line="13" severity="error" message="Line has windows line endings." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpMultilineCheck"/>
+<error line="14" severity="error" message="Line has windows line endings." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpMultilineCheck"/>
+<error line="15" severity="error" message="Line has windows line endings." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpMultilineCheck"/>
+<error line="16" severity="error" message="Line has windows line endings." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpMultilineCheck"/>
+<error line="17" severity="error" message="Line has windows line endings." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpMultilineCheck"/>
+<error line="18" severity="error" message="Line has windows line endings." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpMultilineCheck"/>
+<error line="19" severity="error" message="Line has windows line endings." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpMultilineCheck"/>
+<error line="20" severity="error" message="Line has windows line endings." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpMultilineCheck"/>
+<error line="21" severity="error" message="Line has windows line endings." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpMultilineCheck"/>
+<error line="22" severity="error" message="Line has windows line endings." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpMultilineCheck"/>
+<error line="23" severity="error" message="Line has windows line endings." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpMultilineCheck"/>
+<error line="24" severity="error" message="Line has windows line endings." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpMultilineCheck"/>
+<error line="25" severity="error" message="Line has windows line endings." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpMultilineCheck"/>
+<error line="26" severity="error" message="Line has windows line endings." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpMultilineCheck"/>
+<error line="27" severity="error" message="Line has windows line endings." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpMultilineCheck"/>
+<error line="28" severity="error" message="Line has windows line endings." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpMultilineCheck"/>
+<error line="29" severity="error" message="Line has windows line endings." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpMultilineCheck"/>
+<error line="30" severity="error" message="Line has windows line endings." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpMultilineCheck"/>
+<error line="31" severity="error" message="Line has windows line endings." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpMultilineCheck"/>
+<error line="32" severity="error" message="Line has windows line endings." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpMultilineCheck"/>
+<error line="33" severity="error" message="Line has windows line endings." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpMultilineCheck"/>
+<error line="34" severity="error" message="Line has windows line endings." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpMultilineCheck"/>
+<error line="35" severity="error" message="Line has windows line endings." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpMultilineCheck"/>
+<error line="36" severity="error" message="Line has windows line endings." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpMultilineCheck"/>
+<error line="37" severity="error" message="Line has windows line endings." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpMultilineCheck"/>
+<error line="38" severity="error" message="Line has windows line endings." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpMultilineCheck"/>
+<error line="39" severity="error" message="Line has windows line endings." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpMultilineCheck"/>
+<error line="40" severity="error" message="Line has windows line endings." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpMultilineCheck"/>
+<error line="41" severity="error" message="Line has windows line endings." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpMultilineCheck"/>
+<error line="42" severity="error" message="Line has windows line endings." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpMultilineCheck"/>
+<error line="43" severity="error" message="Line has windows line endings." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpMultilineCheck"/>
+<error line="44" severity="error" message="Line has windows line endings." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpMultilineCheck"/>
+<error line="45" severity="error" message="Line has windows line endings." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpMultilineCheck"/>
+<error line="46" severity="error" message="Line has windows line endings." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpMultilineCheck"/>
+<error line="47" severity="error" message="Line has windows line endings." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpMultilineCheck"/>
+<error line="48" severity="error" message="Line has windows line endings." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpMultilineCheck"/>
+<error line="49" severity="error" message="Line has windows line endings." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpMultilineCheck"/>
+<error line="50" severity="error" message="Line has windows line endings." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpMultilineCheck"/>
+<error line="51" severity="error" message="Line has windows line endings." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpMultilineCheck"/>
+<error line="52" severity="error" message="Line has windows line endings." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpMultilineCheck"/>
+<error line="53" severity="error" message="Line has windows line endings." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpMultilineCheck"/>
+<error line="54" severity="error" message="Line has windows line endings." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpMultilineCheck"/>
+<error line="55" severity="error" message="Line has windows line endings." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpMultilineCheck"/>
+<error line="56" severity="error" message="Line has windows line endings." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpMultilineCheck"/>
+<error line="57" severity="error" message="Line has windows line endings." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpMultilineCheck"/>
+<error line="58" severity="error" message="Line has windows line endings." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpMultilineCheck"/>
+<error line="59" severity="error" message="Line has windows line endings." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpMultilineCheck"/>
+<error line="60" severity="error" message="Line has windows line endings." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpMultilineCheck"/>
+<error line="61" severity="error" message="Line has windows line endings." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpMultilineCheck"/>
+<error line="62" severity="error" message="Line has windows line endings." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpMultilineCheck"/>
+<error line="63" severity="error" message="Line has windows line endings." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpMultilineCheck"/>
+<error line="64" severity="error" message="Line has windows line endings." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpMultilineCheck"/>
+<error line="65" severity="error" message="Line has windows line endings." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpMultilineCheck"/>
+<error line="66" severity="error" message="Line has windows line endings." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpMultilineCheck"/>
+<error line="67" severity="error" message="Line has windows line endings." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpMultilineCheck"/>
+<error line="68" severity="error" message="Line has windows line endings." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpMultilineCheck"/>
+<error line="69" severity="error" message="Line has windows line endings." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpMultilineCheck"/>
+<error line="70" severity="error" message="Line has windows line endings." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpMultilineCheck"/>
+<error line="71" severity="error" message="Line has windows line endings." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpMultilineCheck"/>
+</file>
+<file name="D:\share\DICES\dices_anonym\src\main\java\abc\def\dices\package-info.java">
+</file>
+<file name="D:\share\DICES\dices_anonym\src\main\java\abc\def\dices\ReactiveForwarding.java">
+<error line="93" column="1" severity="error" message="第17行重复导入：com.google.common.collect.ImmutableSet 。" source="com.puppycrawl.tools.checkstyle.checks.imports.RedundantImportCheck"/>
+<error line="94" severity="error" message="不应使用 &apos;.*&apos; 形式的导入 - org.onlab.packet.* 。" source="com.puppycrawl.tools.checkstyle.checks.imports.AvoidStarImportCheck"/>
+<error line="95" column="1" severity="error" message="第30行重复导入：org.onlab.util.KryoNamespace 。" source="com.puppycrawl.tools.checkstyle.checks.imports.RedundantImportCheck"/>
+<error line="96" column="1" severity="error" message="第31行重复导入：org.onlab.util.Tools 。" source="com.puppycrawl.tools.checkstyle.checks.imports.RedundantImportCheck"/>
+<error line="97" column="1" severity="error" message="第32行重复导入：org.onosproject.cfg.ComponentConfigService 。" source="com.puppycrawl.tools.checkstyle.checks.imports.RedundantImportCheck"/>
+<error line="98" column="1" severity="error" message="第33行重复导入：org.onosproject.core.ApplicationId 。" source="com.puppycrawl.tools.checkstyle.checks.imports.RedundantImportCheck"/>
+<error line="99" column="1" severity="error" message="第34行重复导入：org.onosproject.core.CoreService 。" source="com.puppycrawl.tools.checkstyle.checks.imports.RedundantImportCheck"/>
+<error line="100" column="1" severity="error" message="第35行重复导入：org.onosproject.event.Event 。" source="com.puppycrawl.tools.checkstyle.checks.imports.RedundantImportCheck"/>
+<error line="101" severity="error" message="不应使用 &apos;.*&apos; 形式的导入 - org.onosproject.net.* 。" source="com.puppycrawl.tools.checkstyle.checks.imports.AvoidStarImportCheck"/>
+<error line="103" severity="error" message="不应使用 &apos;.*&apos; 形式的导入 - org.onosproject.net.flow.* 。" source="com.puppycrawl.tools.checkstyle.checks.imports.AvoidStarImportCheck"/>
+<error line="104" column="1" severity="error" message="第50行重复导入：org.onosproject.net.flow.criteria.Criterion 。" source="com.puppycrawl.tools.checkstyle.checks.imports.RedundantImportCheck"/>
+<error line="105" column="1" severity="error" message="第51行重复导入：org.onosproject.net.flow.criteria.EthCriterion 。" source="com.puppycrawl.tools.checkstyle.checks.imports.RedundantImportCheck"/>
+<error line="106" column="1" severity="error" message="第52行重复导入：org.onosproject.net.flow.instructions.Instruction 。" source="com.puppycrawl.tools.checkstyle.checks.imports.RedundantImportCheck"/>
+<error line="107" column="1" severity="error" message="第53行重复导入：org.onosproject.net.flow.instructions.Instructions 。" source="com.puppycrawl.tools.checkstyle.checks.imports.RedundantImportCheck"/>
+<error line="108" column="1" severity="error" message="第54行重复导入：org.onosproject.net.flowobjective.DefaultForwardingObjective 。" source="com.puppycrawl.tools.checkstyle.checks.imports.RedundantImportCheck"/>
+<error line="109" column="1" severity="error" message="第55行重复导入：org.onosproject.net.flowobjective.FlowObjectiveService 。" source="com.puppycrawl.tools.checkstyle.checks.imports.RedundantImportCheck"/>
+<error line="110" column="1" severity="error" message="第56行重复导入：org.onosproject.net.flowobjective.ForwardingObjective 。" source="com.puppycrawl.tools.checkstyle.checks.imports.RedundantImportCheck"/>
+<error line="111" column="1" severity="error" message="第57行重复导入：org.onosproject.net.host.HostService 。" source="com.puppycrawl.tools.checkstyle.checks.imports.RedundantImportCheck"/>
+<error line="112" column="1" severity="error" message="第58行重复导入：org.onosproject.net.link.LinkEvent 。" source="com.puppycrawl.tools.checkstyle.checks.imports.RedundantImportCheck"/>
+<error line="114" severity="error" message="不应使用 &apos;.*&apos; 形式的导入 - org.onosproject.net.packet.* 。" source="com.puppycrawl.tools.checkstyle.checks.imports.AvoidStarImportCheck"/>
+<error line="115" column="1" severity="error" message="第64行重复导入：org.onosproject.net.topology.TopologyEvent 。" source="com.puppycrawl.tools.checkstyle.checks.imports.RedundantImportCheck"/>
+<error line="116" column="1" severity="error" message="第65行重复导入：org.onosproject.net.topology.TopologyListener 。" source="com.puppycrawl.tools.checkstyle.checks.imports.RedundantImportCheck"/>
+<error line="117" column="1" severity="error" message="第66行重复导入：org.onosproject.net.topology.TopologyService 。" source="com.puppycrawl.tools.checkstyle.checks.imports.RedundantImportCheck"/>
+<error line="118" column="1" severity="error" message="第67行重复导入：org.onosproject.store.serializers.KryoNamespaces 。" source="com.puppycrawl.tools.checkstyle.checks.imports.RedundantImportCheck"/>
+<error line="119" column="1" severity="error" message="第68行重复导入：org.onosproject.store.service.EventuallyConsistentMap 。" source="com.puppycrawl.tools.checkstyle.checks.imports.RedundantImportCheck"/>
+<error line="120" column="1" severity="error" message="第69行重复导入：org.onosproject.store.service.MultiValuedTimestamp 。" source="com.puppycrawl.tools.checkstyle.checks.imports.RedundantImportCheck"/>
+<error line="121" column="1" severity="error" message="第70行重复导入：org.onosproject.store.service.StorageService 。" source="com.puppycrawl.tools.checkstyle.checks.imports.RedundantImportCheck"/>
+<error line="122" column="1" severity="error" message="第71行重复导入：org.onosproject.store.service.WallClockTimestamp 。" source="com.puppycrawl.tools.checkstyle.checks.imports.RedundantImportCheck"/>
+<error line="123" column="1" severity="error" message="第72行重复导入：org.osgi.service.component.ComponentContext 。" source="com.puppycrawl.tools.checkstyle.checks.imports.RedundantImportCheck"/>
+<error line="124" column="1" severity="error" message="第79行重复导入：org.slf4j.Logger 。" source="com.puppycrawl.tools.checkstyle.checks.imports.RedundantImportCheck"/>
+<error line="125" column="1" severity="error" message="第73行重复导入：org.osgi.service.component.annotations.Activate 。" source="com.puppycrawl.tools.checkstyle.checks.imports.RedundantImportCheck"/>
+<error line="126" column="1" severity="error" message="第74行重复导入：org.osgi.service.component.annotations.Component 。" source="com.puppycrawl.tools.checkstyle.checks.imports.RedundantImportCheck"/>
+<error line="127" column="1" severity="error" message="第75行重复导入：org.osgi.service.component.annotations.Deactivate 。" source="com.puppycrawl.tools.checkstyle.checks.imports.RedundantImportCheck"/>
+<error line="128" column="1" severity="error" message="第76行重复导入：org.osgi.service.component.annotations.Modified 。" source="com.puppycrawl.tools.checkstyle.checks.imports.RedundantImportCheck"/>
+<error line="129" column="1" severity="error" message="第77行重复导入：org.osgi.service.component.annotations.Reference 。" source="com.puppycrawl.tools.checkstyle.checks.imports.RedundantImportCheck"/>
+<error line="130" column="1" severity="error" message="第78行重复导入：org.osgi.service.component.annotations.ReferenceCardinality 。" source="com.puppycrawl.tools.checkstyle.checks.imports.RedundantImportCheck"/>
+<error line="131" severity="error" message="不应使用 &apos;.*&apos; 形式的导入 - java.util.* 。" source="com.puppycrawl.tools.checkstyle.checks.imports.AvoidStarImportCheck"/>
+<error line="132" column="1" severity="error" message="第87行重复导入：java.util.concurrent.ExecutorService 。" source="com.puppycrawl.tools.checkstyle.checks.imports.RedundantImportCheck"/>
+<error line="135" column="1" severity="error" message="第89行重复导入：java.util.concurrent.Executors.newSingleThreadExecutor 。" source="com.puppycrawl.tools.checkstyle.checks.imports.RedundantImportCheck"/>
+<error line="136" column="1" severity="error" message="第90行重复导入：org.onlab.util.Tools.groupedThreads 。" source="com.puppycrawl.tools.checkstyle.checks.imports.RedundantImportCheck"/>
+<error line="137" column="1" severity="error" message="第92行重复导入：org.slf4j.LoggerFactory.getLogger 。" source="com.puppycrawl.tools.checkstyle.checks.imports.RedundantImportCheck"/>
+<error line="868" severity="error" message="本行字符数 255个，最多：120个。" source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+</file>
+<file name="D:\share\DICES\dices_anonym\src\main\java\abc\def\dices\ReactiveForwardingCommand.java">
+</file>
+<file name="D:\share\DICES\dices_anonym\src\main\java\abc\def\dices\ReactiveForwardMetrics.java">
+</file>
+<file name="D:\share\DICES\dices_anonym\src\main\java\abc\def\dices\SearchRunner.java">
+<error line="6" severity="error" message="不应使用 &apos;.*&apos; 形式的导入 - io.jenetics.engine.* 。" source="com.puppycrawl.tools.checkstyle.checks.imports.AvoidStarImportCheck"/>
+<error line="15" severity="error" message="不应使用 &apos;.*&apos; 形式的导入 - io.jenetics.prog.op.* 。" source="com.puppycrawl.tools.checkstyle.checks.imports.AvoidStarImportCheck"/>
+<error line="26" severity="error" message="不应使用 &apos;.*&apos; 形式的导入 - java.util.* 。" source="com.puppycrawl.tools.checkstyle.checks.imports.AvoidStarImportCheck"/>
+<error line="37" column="28" severity="error" message="&apos;,&apos; 后应有空格。" source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAfterCheck"/>
+<error line="43" column="43" severity="error" message="&apos;,&apos; 后应有空格。" source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAfterCheck"/>
+<error line="48" severity="error" message="本行字符数 133个，最多：120个。" source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="71" severity="error" message="&apos;while&apos; 结构必须使用大括号 &apos;{}&apos;。" source="com.puppycrawl.tools.checkstyle.checks.blocks.NeedBracesCheck"/>
+<error line="77" severity="error" message="&apos;while&apos; 结构必须使用大括号 &apos;{}&apos;。" source="com.puppycrawl.tools.checkstyle.checks.blocks.NeedBracesCheck"/>
+<error line="84" severity="error" message="本行字符数 123个，最多：120个。" source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="121" column="70" severity="error" message="名称 &apos;constraint2&apos; 必须匹配表达式： &apos;^log$|^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$&apos; 。" source="com.puppycrawl.tools.checkstyle.checks.naming.ConstantNameCheck"/>
+<error line="131" column="29" severity="error" message="类型转换后应有空格。" source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAfterCheck"/>
+<error line="134" column="18" severity="error" message="&apos;-&gt;&apos; 前应有空格。" source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="134" column="20" severity="error" message="&apos;-&gt;&apos; 后应有空格。" source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="166" column="21" severity="error" message="&apos;=&apos; 前应有空格。" source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="167" column="47" severity="error" message="&apos;=&apos; 后应有空格。" source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="179" column="36" severity="error" message="&apos;=&apos; 前应有空格。" source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="179" column="37" severity="error" message="&apos;=&apos; 后应有空格。" source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="180" column="42" severity="error" message="&apos;{&apos; 前应有空格。" source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="181" column="41" severity="error" message="&apos;=&apos; 前应有空格。" source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="181" column="42" severity="error" message="&apos;=&apos; 后应有空格。" source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="183" column="32" severity="error" message="&apos;,&apos; 后应有空格。" source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAfterCheck"/>
+<error line="207" column="36" severity="error" message="类型转换后应有空格。" source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAfterCheck"/>
+<error line="211" column="36" severity="error" message="类型转换后应有空格。" source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAfterCheck"/>
+<error line="214" severity="error" message="名称 &apos;findLCS&apos; 中不能出现超过 &apos;3&apos; 个连续大写字母。" source="com.puppycrawl.tools.checkstyle.checks.naming.AbbreviationAsWordInNameCheck"/>
+<error line="215" column="36" severity="error" message="类型转换后应有空格。" source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAfterCheck"/>
+<error line="220" severity="error" message="本行字符数 133个，最多：120个。" source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="220" column="42" severity="error" message="&apos;,&apos; 后应有空格。" source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAfterCheck"/>
+<error line="220" column="108" severity="error" message="&apos;,&apos; 后应有空格。" source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAfterCheck"/>
+<error line="222" column="43" severity="error" message="&apos;,&apos; 后应有空格。" source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAfterCheck"/>
+<error line="223" column="48" severity="error" message="&apos;,&apos; 后应有空格。" source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAfterCheck"/>
+<error line="224" column="34" severity="error" message="&apos;=&apos; 前应有空格。" source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="224" column="35" severity="error" message="&apos;=&apos; 后应有空格。" source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="234" column="39" severity="error" message="&apos;,&apos; 后应有空格。" source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAfterCheck"/>
+<error line="236" column="24" severity="error" message="数组大括号位置错误。" source="com.puppycrawl.tools.checkstyle.checks.ArrayTypeStyleCheck"/>
+<error line="237" column="24" severity="error" message="数组大括号位置错误。" source="com.puppycrawl.tools.checkstyle.checks.ArrayTypeStyleCheck"/>
+<error line="243" column="21" severity="error" message="数组大括号位置错误。" source="com.puppycrawl.tools.checkstyle.checks.ArrayTypeStyleCheck"/>
+<error line="296" column="29" severity="error" message="类型转换后应有空格。" source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAfterCheck"/>
+<error line="300" column="36" severity="error" message="类型转换后应有空格。" source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAfterCheck"/>
+</file>
+<file name="D:\share\DICES\dices_anonym\src\main\java\abc\def\dices\SrcDstPair.java">
+</file>
+<file name="D:\share\DICES\dices_anonym\src\main\java\abc\def\dices\TestClass.java">
+</file>
+</checkstyle>
